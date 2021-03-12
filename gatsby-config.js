@@ -4,6 +4,11 @@ module.exports = {
   siteMetadata: {
     title: "Blog Demo",
     siteUrl: "https://blog-demo-contentful.netlify.app",
+    author: "Gabriel Rojas",
+    description: "This is a demo site using Contentful, Gatsby and TailwindCSS",
+    image: "/images/blog-demo.jpg",
+    twitterUsername: "@gab_rojasar",
+    titleTemplate: "%s · Blog Demo",
   },
   plugins: [
     {
