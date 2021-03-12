@@ -3,6 +3,7 @@ require("dotenv").config();
 module.exports = {
   siteMetadata: {
     title: "Blog Demo",
+    siteUrl: "blog-demo-contentful.netlfiy.app",
   },
   plugins: [
     {
