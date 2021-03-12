@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: "Blog Demo",
@@ -6,8 +8,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        accessToken: "63zenyq5xa5q",
-        spaceId: "",
+        spaceId: "63zenyq5xa5q",
+        accessToken: process.env.GATSBY_CONTENTFUL_ACCESS_TOKEN,
       },
     },
     "gatsby-plugin-postcss",
